@@ -23,33 +23,92 @@
             android:text="Tipos de pizza"
             android:textColor="#000000"
             android:textSize="20dp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="30dp"
             android:fontFamily="sans-serif-black"
-            android:text="Hawaiana"
+            android:text="Hawaiana $150"
             android:textColor="#FDD60A"
             android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/logo4"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/pizza2" />
+
+        <CheckBox
+            android:id="@+id/pizza1hawa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:minHeight="35dp"
+            android:text="@string/pizza1hawa" />
+
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="30dp"
             android:fontFamily="sans-serif-black"
-            android:text="Salami"
+            android:text="Salami $100"
             android:textColor="#FDD60A"
             android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/logo5"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/slami" />
+
+        <CheckBox
+            android:id="@+id/pizz1sala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:minHeight="35dp"
+            android:text="@string/pizza1sala" />
+
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="30dp"
             android:fontFamily="sans-serif-black"
-            android:text="Queso"
+            android:text="Queso $120"
             android:textColor="#FDD60A"
             android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/logo6"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/queso" />
+
+        <CheckBox
+            android:id="@+id/pizza1que"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:minHeight="35dp"
+            android:text="@string/pizza1que" />
 
 
         <Button
@@ -57,10 +116,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:layout_marginRight="15dp"
             android:text="@string/finalizarpedido"
             android:textColor="#FFFFFF" />
-
 
         <Button
             android:id="@+id/boton3"

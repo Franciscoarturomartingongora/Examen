@@ -5,4 +5,11 @@
     <string name="inicio">Iniciar</string>
     <string name="finalizarpedido">Finalizar Pedido</string>
     <string name="bebidas">Bebidas</string>
+    <string name="pizza1hawa">1 pizza hawaiana</string>
+    <string name="pizza1sala">1 pizza salami</string>
+    <string name="pizza1que">1 pizza queso</string>
+    <string name="pepsi1">1 pepsi</string>
+    <string name="fanta1">1 fanta</string>
+    <string name="coca1">1 coca cola</string>
+
 </resources>
