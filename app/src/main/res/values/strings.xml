@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">pizzeria</string>
+    <string name="user">Usuario</string>
+    <string name="password">Password</string>
+    <string name="inicio">Iniciar</string>
+    <string name="finalizarpedido">Finalizar Pedido</string>
+    <string name="bebidas">Bebidas</string>
+</resources>
