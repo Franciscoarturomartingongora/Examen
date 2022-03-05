@@ -28,26 +28,43 @@ public class pagina2 extends AppCompatActivity {
         {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(pagina2.this, pagina4.class);
-                i.putExtra("numero", "   total 150");
-                startActivity(i);
+
+                if (pizza1hawa.isChecked()== true)  {
+
+                    Intent i = new Intent(pagina2.this, pagina4.class);
+                    i.putExtra("numero", "   total 150");
+                    startActivity(i);
 
 
+                }
+                if (pizza1sala.isChecked()== true)  {
+
+                    Intent i = new Intent(pagina2.this, pagina4.class);
+                    i.putExtra("numero", "   total 100");
+                    startActivity(i);
+                }
+
+                if (pizza1que.isChecked()== true)  {
+
+                    Intent i = new Intent(pagina2.this, pagina4.class);
+                    i.putExtra("numero", "   total 120");
+                    startActivity(i);
+
+                }
+
+            }
+
+        });
+        boton3.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(pagina2.this, pagina3.class));
 
 
 
             }
         });
-       boton3.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-          public void onClick(View view) {
-               startActivity(new Intent(pagina2.this, pagina3.class));
-
-
-
-            }
-
-       });
     }
 }
+

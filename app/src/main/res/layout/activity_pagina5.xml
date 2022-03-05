@@ -4,10 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pagina4"
+    tools:context=".pagina5"
     android:background="#D2FF8922"
     >
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,25 +15,22 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/pedido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
             android:fontFamily="sans-serif-black"
-            android:text=""
+            android:text="Su pedido se ha enviado correctamente"
             android:textColor="#000000"
             android:textSize="20dp" />
 
         <Button
-            android:id="@+id/boton5"
+            android:id="@+id/boton6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="70dp"
-            android:text="@string/enviarpedido"
+            android:text="@string/salirapp"
             android:textColor="#FFFFFF" />
 
-
     </LinearLayout>
-
 </RelativeLayout>

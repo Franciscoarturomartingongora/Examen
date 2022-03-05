@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pizzeria">
         <activity
+            android:name=".pagina5"
+            android:exported="false" />
+        <activity
             android:name=".pagina4"
             android:exported="false" />
         <activity
